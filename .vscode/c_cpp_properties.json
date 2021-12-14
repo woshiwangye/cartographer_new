@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/wy/Desktop/cartographer_new/install_isolated/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/wy/Desktop/datatest/LiDARSim2D/src/lidar_sim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
