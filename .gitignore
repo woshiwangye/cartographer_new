@@ -2,4 +2,5 @@ test/
 devel_isolated/
 abseil-cpp/
 build_isolated/
-install_isolated/
+/install_isolated/*
+!/install_isolated/share
