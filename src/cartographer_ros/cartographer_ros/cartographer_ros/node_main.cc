@@ -83,6 +83,13 @@ void Run() {
 }  // namespace cartographer_ros
 
 int main(int argc, char** argv) {
+  printf("start!\n");
+  printf("argc:%d\n", argc);
+  for(int i=0; i<argc; i++){
+    printf("%s\n", argv[i]);
+  }
+  printf("\n\n");
+  
   google::InitGoogleLogging(argv[0]);
   google::ParseCommandLineFlags(&argc, &argv, true);
 
